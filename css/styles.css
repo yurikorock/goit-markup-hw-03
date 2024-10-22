@@ -8,6 +8,9 @@ body {
   ul {
     list-style-type: none;
   }
+  img {
+    display: block;
+  }
 }
 .logo {
   font-family: "Raleway", sans-serif;
