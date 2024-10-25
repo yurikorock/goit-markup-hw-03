@@ -12,6 +12,12 @@ body {
     display: block;
   }
 }
+.the-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container .header-page {
+  display: flex;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -57,6 +63,7 @@ body {
 }
 .section-main {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .section-main-title {
   font-weight: 700;
@@ -67,6 +74,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 .section-main .btn-section-main {
   background: #4d5ae5;
@@ -79,6 +87,12 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .section-main .btn-section-main:hover,
 .section-main .btn-section-main:focus {

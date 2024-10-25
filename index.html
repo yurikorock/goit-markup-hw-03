@@ -12,7 +12,6 @@
       rel="stylesheet"
     />
     <!-- Спочатку нормалізатор -->
-    <!-- Спочатку нормалізатор -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
@@ -22,18 +21,21 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-name">Studio</span></a
-        >
-        <ul class="nav-links">
-          <li><a class="link" href="./index.html">Studio</a></li>
-          <li><a class="link" href="">Portfolio</a></li>
-          <li><a class="link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-
+    <header class="the-header">
+      <div class="container">
+        <div class="header-page">
+          <nav>
+            <a class="logo" href="./index.html"
+              >Web<span class="logo-name">Studio</span></a
+            >
+            <ul class="nav-links">
+              <li><a class="link" href="./index.html">Studio</a></li>
+              <li><a class="link" href="">Portfolio</a></li>
+              <li><a class="link" href="">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
       <address class="address-main">
         <ul class="address-links">
           <li>
@@ -50,10 +52,12 @@
 
     <main>
       <section class="section-main">
-        <h1 class="section-main-title">
-          Effective Solutions for Your Business
-        </h1>
-        <button class="btn-section-main" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="section-main-title">
+            Effective Solutions for Your Business
+          </h1>
+          <button class="btn-section-main" type="button">Order Service</button>
+        </div>
       </section>
 
       <section class="section-two">
