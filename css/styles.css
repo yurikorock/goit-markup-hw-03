@@ -21,9 +21,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.the-header .container .header-page .navigation {
-  display: flex;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -103,6 +100,16 @@ body {
 .section-main .btn-section-main:hover,
 .section-main .btn-section-main:focus {
   background-color: #404bbf;
+}
+.section-two {
+  padding: 120px 0;
+}
+.section-two .hidden-h2 {
+  visibility: hidden;
+}
+.section-two .section-two-list {
+  display: flex;
+  gap: 24px;
 }
 .section-two .section-two-list .section-title {
   font-weight: 500;
