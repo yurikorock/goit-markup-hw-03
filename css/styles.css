@@ -104,7 +104,7 @@ body {
 .section-two {
   padding: 120px 0;
 }
-.section-two .hidden-h2 {
+.section-two .visually-hidden {
   visibility: hidden;
 }
 .section-two .section-two-list {
