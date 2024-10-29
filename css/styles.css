@@ -14,8 +14,14 @@ body {
 }
 .the-header {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
-.container .header-page {
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.the-header .container .header-page .navigation {
   display: flex;
 }
 .logo {
