@@ -229,6 +229,11 @@ img {
 }
 /* #endregion */
 /* #region Poortfolio */
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -239,6 +244,22 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  padding: 0;
+}
+.portfolio-item {
+  width: calc((100% - 2 * 24px) / 3);
+}
+.portfolio .container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-subtitle {
   font-weight: 500;
@@ -248,6 +269,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-weight: 400;
