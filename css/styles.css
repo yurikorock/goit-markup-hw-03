@@ -199,13 +199,18 @@ img {
 .team-item {
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
-  text-align: center;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team .container {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
+  text-align: center;
+  margin-bottom: 8px;
 
   /* line-height: 24px; */
   line-height: 1.2;
@@ -220,6 +225,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 /* #endregion */
 /* #region Poortfolio */
