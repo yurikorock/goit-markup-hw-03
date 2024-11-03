@@ -55,8 +55,9 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 24px;
-  padding-bottom: 24px;git
+  padding-bottom: 24px;
 }
+
 .nav-item:hover,
 .nav-item:focus {
   color: #404bbf;
@@ -147,6 +148,9 @@ img {
   display: flex;
   gap: 24px;
 }
+.benefits-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
 .benefits-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -155,6 +159,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .benefits-text {
   font-weight: 400;
