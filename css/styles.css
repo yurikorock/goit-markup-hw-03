@@ -235,6 +235,9 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.portfolio > .container {
+  width: 1158px;
+}
 
 .portfolio-title {
   font-weight: 700;
@@ -258,7 +261,7 @@ img {
 .portfolio-item {
   width: calc((100% - 48px) / 3);
 }
-.portfolio .container {
+.container-item {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
